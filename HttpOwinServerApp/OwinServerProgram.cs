@@ -4,6 +4,11 @@ using Microsoft.Owin;
 using Microsoft.Owin.Hosting;
 using Owin;
 
+// 下記のとおり Microsoft.AspNet.WebApi.OwinSelfHost NuGet パッケージをインストールしておくこと。
+//
+// PM> Install-Package Microsoft.AspNet.WebApi.OwinSelfHost
+
+
 [assembly: OwinStartup(typeof(HttpOwinServerApp.OwinServerProgram))]
 
 namespace HttpOwinServerApp

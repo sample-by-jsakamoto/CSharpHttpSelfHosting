@@ -2,6 +2,10 @@
 using System.Net;
 using Newtonsoft.Json;
 
+// 下記のとおり Newtonsoft.Json NuGet パッケージをインストールしておくこと。
+//
+// PM> Install-Package Newtonsoft.Json
+
 namespace HttpServerApp
 {
     public class Person

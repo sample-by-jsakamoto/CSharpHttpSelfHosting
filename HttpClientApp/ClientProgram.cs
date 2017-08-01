@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
+
+// 下記のとおり Microsoft.AspNet.WebApi.Client NuGet パッケージをインストールしておくこと。
+//
+// PM> Install-Package Microsoft.AspNet.WebApi.Client
 
 namespace HttpClientApp
 {
